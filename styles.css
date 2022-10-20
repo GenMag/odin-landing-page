@@ -1,0 +1,48 @@
+/*=====RESETS AND PRESETS======*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --primary-color: #e5e7eb;
+    --secondary-color: #1f2937;
+    --tertiary-color: #3882f6;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+img {
+    max-width: 300px;
+}
+
+body {
+    max-width: 1200px;
+}
+
+
+/*=====HEADER======*/
+
+.logo {
+    width: 170px;
+    margin-top: -20px;
+}
+
+.logo-nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #e5e7eb;
+}
