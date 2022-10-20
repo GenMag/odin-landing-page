@@ -5,6 +5,7 @@
     --primary-color: #e5e7eb;
     --secondary-color: #1f2937;
     --tertiary-color: #3882f6;
+    --primary-font-color: #2a2b2c;
 }
 
 *,
@@ -17,6 +18,7 @@
 
 html {
     font-size: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -30,19 +32,62 @@ body {
 
 /*=====HEADER======*/
 
+header {
+    margin-bottom: 10rem;
+    background-image: url(./images/Photo_of_Five_Cars_Parked.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header::before {
+    content:"";
+    position: absolute;
+    background-color: var(--secondary-color);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
 .logo {
     width: 170px;
     margin-top: -20px;
+    position: relative;
 }
 
 .logo-nav-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .nav-bar {
-    margin: 0 auto;
-    font-size: 1.5rem;
-    color: #e5e7eb;
+    margin: -4rem auto 0;
+    font-size: 1.7rem;
+    text-align: center;
+    list-style: none;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.nav-bar li {
+    margin: 1.2rem 0;
+    padding: 0.2rem 0;
+}
+
+
+li .nav-link {
+    color: var(--primary-font-color-color);
+    text-decoration: none;
+    font: s;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
 }
