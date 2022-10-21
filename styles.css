@@ -148,6 +148,12 @@ img:not(logo) {
     margin-bottom: 2rem;
 }
 
+.signup:hover,
+.signup:focus {
+    border: 1px solid hsla(100, 20%, 100%, 0.7);
+    box-shadow: 0 0 15px hsla(100, 20%, 100%, 0.7);
+}
+
 /*=====MAIN=====*/
 
 /*=====GALLERY======*/
@@ -239,6 +245,12 @@ img:not(logo) {
 .signup.bottom {
     border: 0.2rem solid #fff;
     padding: 0.2rem 0;
+}
+
+.signup.bottom:hover,
+.signup.bottom:focus {
+    border: 0.2rem solid hsla(100, 20%, 70%, 0.7);
+    box-shadow: 0 0 15px hsla(100, 20%, 70%, 0.7);
 }
 
 /*======FOOTER======*/
