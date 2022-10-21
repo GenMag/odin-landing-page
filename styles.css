@@ -33,7 +33,6 @@ body {
 /*=====HEADER======*/
 
 header {
-    margin-bottom: 10rem;
     background-image: url(./images/Photo_of_Five_Cars_Parked.jpg);
     background-position: center;
     background-size: cover;
@@ -117,10 +116,13 @@ li .nav-link {
 }
 
 .main-photo {
+    margin-bottom: 2rem;
+}
+
+img:not(logo) {
     width: 450px;
     max-width: 80%;
     border-radius: 0.5rem;
-    margin-bottom: 2rem;
 }
 
 .signup {
@@ -135,3 +137,34 @@ li .nav-link {
     border-radius: 10px;
     margin-bottom: 2rem;
 }
+
+/*=====MAIN=====*/
+
+/*=====GALLERY======*/
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 3.5rem;
+    padding: 2rem 0;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 1.8rem;
+}
+
+.gallery-item {
+    box-shadow: 0 5px 10px #777;
+}
+
+.item-description {
+    width: 400px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
