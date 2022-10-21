@@ -108,7 +108,7 @@ li .nav-link {
     font-size: 3rem;
     margin-bottom: 1rem;
     
-}
+}    outline: none;
 
 .main-description {
     font-size: 1.5rem;
@@ -118,6 +118,7 @@ li .nav-link {
 
 .main-photo {
     margin-bottom: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 img:not(logo) {
@@ -242,4 +243,37 @@ footer {
     padding: 3rem 0;
 }
 
+
+/*========MEDIA QUERY=======*/
+
+@media (min-width: 700px) {
+    body {
+        max-width: 100%;
+    }
+
+    .logo-nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-bar {
+        display: flex;
+        gap: 1.5rem;
+        padding-right: 4rem;
+    }
+
+    .header-content {
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .main-photo {
+        order: 2;
+    }
+
+    .header {
+        padding-bottom: 10rem;
+    }
+}
 
