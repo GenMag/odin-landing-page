@@ -146,6 +146,7 @@ img:not(logo) {
 
 .gallery {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .gallery-title {
@@ -178,7 +179,6 @@ img:not(logo) {
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
-    margin: 2rem 0;
 }
 
 .quote {
