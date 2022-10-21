@@ -88,6 +88,14 @@ li .nav-link {
     padding: 0.5rem;
 }
 
+li .nav-link:hover,
+li .nav-link:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 1rem;
+    color: hsla(100, 20%, 100%, 0.7);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5) ;
+}
+
 .header-content {
     position: relative;
     z-index: 1;
