@@ -59,6 +59,7 @@ header::before {
     position: relative;
 }
 
+
 .logo-nav-container {
     display: flex;
     flex-direction: column;
@@ -90,4 +91,47 @@ li .nav-link {
 .header-content {
     position: relative;
     z-index: 1;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-subtext {
+    order: 2;
+    text-align: center;
+    color: bisque;
+    width: 80%;
+}
+
+.main-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+.main-description {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-photo {
+    width: 450px;
+    max-width: 80%;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.signup {
+    background-color: var(--tertiary-color);
+    width: 120px;
+    height: 35px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 2rem;
 }
