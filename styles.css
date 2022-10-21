@@ -127,6 +127,8 @@ li .nav-link:focus {
 .main-photo {
     margin-bottom: 2rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid hsla(300, 50%, 100%, 0.8);
+    border-radius: 10px;
 }
 
 img:not(logo) {
