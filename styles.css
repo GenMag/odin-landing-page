@@ -198,3 +198,10 @@ img:not(logo) {
     margin: 0.5rem 0;
 }
 
+/*=====ACTION-CALL SECTION======*/
+
+.action-call {
+    height: 50vh;
+}
+
+
