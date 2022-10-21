@@ -282,5 +282,27 @@ footer {
         width: 30%;
         text-align: left;
     }
+
+    .gallery-title {
+        margin: 4rem 0 3rem;
+    }
+
+    .gallery-images {
+        flex-direction: row;
+        height: 60vh;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .gallery-item {
+        height: 150px;
+        margin-bottom: 1rem;
+
+    }
+
+    .product {
+        width: 250px;
+    }
 }
 
